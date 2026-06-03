@@ -1,0 +1,842 @@
+// Override this file to add your own SCSS styling.
+
+$max_width: 1250px;
+$primary_color: #105897;
+
+/* Webfont: Barlow-Bold */
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.eot");
+  /* IE9 Compat Modes */
+  src:
+    url("../fonts/Barlow-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Barlow-Bold.woff") format("woff"),
+    url("../fonts/Barlow-Bold.ttf") format("truetype"),
+    url("../fonts/Barlow-Bold.svg#Barlow-Bold") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+/* Webfont: Barlow-Regular */
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.eot");
+  /* IE9 Compat Modes */
+  src:
+    url("../fonts/Barlow-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Barlow-Regular.woff") format("woff"),
+    url("../fonts/Barlow-Regular.ttf") format("truetype"),
+    url("../fonts/Barlow-Regular.svg#Barlow-Regular") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Inconsolata-Regular */
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../fonts/Inconsolata-Regular.eot");
+  /* IE9 Compat Modes */
+  src:
+    url("../fonts/Inconsolata-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inconsolata-Regular.woff") format("woff"),
+    url("../fonts/Inconsolata-Regular.ttf") format("truetype"),
+    url("../fonts/Inconsolata-Regular.svg#Inconsolata-Regular") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  //font-family: montserrat,PingFang SC,Microsoft YaHei,微软雅黑,STXihei,华文细黑,sans-serif;
+  //font-family: Microsoft YaHei,微软雅黑,STXihei,华文细黑,sans-serif;
+  font-family:
+    Barlow,
+    Inter,
+    Inter Placeholder,
+    PingFang SC,
+    PingFang TC,
+    sans-serif;
+  color: #000;
+  background-color: #f2f2f2;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow";
+  font-weight: bolder;
+}
+
+#section-recent-works {
+  .card {
+    min-height: 480px;
+  }
+}
+
+.site-wrapper {
+  background: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: $max_width;
+  }
+
+  #navbar-main {
+    .container-xl {
+      max-width: 100%;
+      padding: 0 5rem;
+    }
+  }
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: #000;
+}
+
+.navbar-light {
+  // font-family: "Inconsolata";
+}
+
+.navbar {
+  font-size: 1rem;
+  box-shadow: unset;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  //margin: 1rem 0 0 0;
+  background-color: #ffffff;
+  padding: 3rem 1rem;
+}
+
+.logo-title-text,
+.logo-title-text:hover {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  // font-family: "Barlow";
+}
+
+.home-section:first-of-type {
+  padding-top: 0px;
+}
+.home-section {
+  padding: 1rem 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
+#section-home-content {
+  .home-content-wrap {
+    padding: 2rem 6rem;
+  }
+}
+
+.home-content-wrap {
+  .carousel-indicators {
+    display: none !important;
+  }
+
+  /* 核心能力展示 (卡片浅色但保留红黑点缀) */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    letter-spacing: 3px;
+    color: #1a1a1a;
+  }
+
+  .section-title-row {
+    // border-top: 1px solid lightgrey;
+    //padding-top: 3rem;
+    padding-top: 6rem;
+
+    .outer-arrows {
+      display: none;
+    }
+  }
+
+  .home-images-gallery {
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2rem;
+      margin: 2rem 0 4rem;
+
+      .gallery-item {
+        aspect-ratio: 1 / 1;
+        background-size: cover;
+        background-position: center;
+        background-color: #e0e0e0;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        transition: 0.3s;
+        filter: grayscale(20%);
+        display: flex;
+        align-items: flex-end;
+        padding: 0.8rem;
+        color: white;
+        font-weight: 600;
+        text-shadow: 0 2px 6px black;
+        box-shadow: inset 0 -40px 30px -20px rgba(0, 0, 0, 0.5);
+      }
+
+      .gallery-item:hover {
+        transform: scale(1.02);
+        border-color: var(--accent-red);
+        filter: grayscale(0%);
+        box-shadow: 0 0 20px rgba(198, 40, 40, 0.3);
+      }
+
+      .character-desc {
+        background: #f7f7f7;
+        color: #333333;
+        padding: 0.2rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        backdrop-filter: none;
+        z-index: 10;
+        text-shadow: none;
+        font-weight: normal;
+      }
+    }
+  }
+
+  /* 代表论文 (浅色卡片+红) */
+  .papers-grid {
+    display: flex;
+    gap: 2rem;
+    margin: 2.5rem 0 4rem;
+    flex-wrap: wrap;
+  }
+
+  .paper-item {
+    flex: 1;
+    min-width: 260px;
+    background: #fafafa;
+    border-radius: 18px;
+    padding: 2rem 1.8rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 5px 15px rgba(198, 40, 40, 0.08);
+    transition: 0.3s;
+  }
+
+  .paper-item:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 25px rgba(198, 40, 40, 0.2);
+  }
+
+  .paper-venue {
+    //color: $primary_color;
+    color: #666;
+    //font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+  }
+
+  .paper-journal {
+    a {
+      font-size: 0.9rem;
+    }
+  }
+  .paper-title {
+    font-size: 1.4rem;
+    //font-weight: 600;
+    margin: 0.8rem 0 1rem;
+    line-height: 1.3;
+    color: #1e1e1e;
+  }
+
+  .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    border-left: 2px solid #999999;
+    padding-left: 1rem;
+  }
+
+  .contact-item {
+    height: 100%;
+    margin-bottom: 1rem;
+    background: #f9fbfd;
+    .c-title {
+      margin-left: 1rem;
+    }
+    .c-desc-text {
+      margin-left: 1rem;
+    }
+  }
+
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    //background: #ffebee;
+    background: #e8f0f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    // color: #c62828;
+    color: $primary_color;
+    font-size: 1.3rem;
+  }
+}
+
+.wg-home-slide {
+  background-color: #ffffff;
+  .carousel-item {
+    height: 700px;
+  }
+
+  .carousel-inner .wg-hero {
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 50%;
+  }
+
+  .hero-title {
+    //color: #000000 !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  .hero-lead {
+    //color: #00000080 !important;
+    font-size: 1.5rem;
+    max-width: 100% !important;
+    text-align: center;
+  }
+}
+
+h1.common-page-h1-title {
+  // font-family: "Inconsolata" !important;
+  font-weight: 500;
+  text-transform: uppercase; /* 全部大写 */
+  letter-spacing: 0.5rem;
+}
+
+h2.common-page-h1-title {
+  // font-family: "Inconsolata" !important;
+  // font-weight: 500;
+  // text-transform: uppercase; /* 全部大写 */
+  // letter-spacing: 0.5rem;
+}
+.list-page-index-sidebar {
+  // font-family: "Inconsolata";
+  margin: 0 0 1rem 0;
+  .page-list-index-item {
+    padding-left: 1rem; // 整体右偏1rem
+    text-indent: -1rem; // 文字首行左偏1rem, 这样可以对齐换行文本
+  }
+  .page-list-index-item::before {
+    content: "\2014";
+    margin-right: 0.5rem;
+  }
+}
+
+.article-metadata {
+  // font-family: "Inconsolata";
+  .article-date {
+    display: none;
+  }
+}
+
+.article-research {
+  .featured-image {
+    width: unset;
+  }
+  ol {
+    padding-inline-start: 1rem;
+  }
+}
+
+.research-list-page,
+#research {
+  .page-list-subcategory {
+    padding: 1rem 0 0 0;
+  }
+  .research-list-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    // padding: 10px;
+
+    //.card-simple:first-of-type {
+    //  margin-top: 20px !important;
+    //}
+    .card-simple {
+      margin-top: 0 !important;
+      border: 0px solid rgba(0, 0, 0, 0.176);
+      border-radius: unset;
+    }
+  }
+
+  .common-page-h2-title {
+    margin: 0 0 1rem 0;
+  }
+  .section-heading h1 {
+    margin: 20px 0 10px 0;
+  }
+  .article-title a {
+    // color: $text-primary-color;
+    font-size: 1.1rem;
+  }
+
+  .card-simple .article-style {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+}
+
+.home-papers-grid {
+  .paper-item {
+    min-height: 17rem;
+    margin-bottom: 1.3rem;
+    dissplay: flex !important;
+    flex-direction: column;
+  }
+
+  .paper-item:hover {
+    // border-color: #4d5074;
+    // box-shadow: 0 0 25px rgba(40, 103, 198, 0.2);
+  }
+
+  .paper-venue {
+    //color: $primary_color;
+    color: #666;
+    //font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+  }
+
+  .paper-journal {
+    a {
+      font-size: 0.9rem;
+    }
+  }
+  .paper-title {
+    font-size: 1.4rem;
+    //font-weight: 600;
+    margin: 0.8rem 0 1rem;
+    line-height: 1.3;
+    color: #1e1e1e;
+    flex-grow: 1;
+  }
+
+  .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    // border-left: 2px solid #999999;
+    // padding-left: 1rem;
+  }
+}
+
+#section-home-slide {
+  padding: 0 !important;
+}
+
+.section-title {
+  // font-family: "Inconsolata";
+  margin: 2rem 0;
+  font-weight: 500;
+  text-transform: uppercase; /* 全部大写 */
+  letter-spacing: 0.5rem;
+
+  font-size: 2.5rem;
+}
+
+.page-publication-list {
+  .paper-item {
+    border-top: 1px solid #e2e8f0;
+    padding: 3rem 0;
+  }
+  .pub-icon {
+    color: var(--accent-red);
+  }
+  .pub-title {
+    font-weight: bold;
+  }
+  .pub-journal {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+.people-list-wrap {
+  .g-section-title {
+    position: relative;
+    margin: 2rem 0 1.5rem;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+    color: #1e466e;
+    border-bottom: 2px solid #105897;
+    display: inline-block;
+
+    i {
+      color: #105897;
+      margin-right: 10px;
+      font-weight: 900;
+    }
+  }
+
+  .card-member {
+    border: none;
+    border-radius: 20px;
+    background: white;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    overflow: hidden;
+  }
+  .h-100 {
+    height: 100% !important;
+  }
+
+  .card-member {
+    border: none;
+    border-radius: 20px;
+    background: white;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    overflow: hidden;
+  }
+  .card-member:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  }
+  .card-img-top {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background: #e9ecef;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #0b2b40;
+  }
+  .member-role {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #105897;
+    margin-bottom: 1rem;
+    display: inline-block;
+    background: #e7f0fa;
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+  }
+  .member-info {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    padding-left: 2rem;
+    text-indent: -1rem;
+  }
+  .want-you-text {
+   padding: 0 0 3rem 0;
+    font-size: 2.5rem;
+  }
+  .want-you-btn {
+        font-size: 2rem;
+    padding: 1rem 3rem !important;
+  }
+  .member-info i {
+    width: 0.8rem;
+    color: #105897;
+  }
+  .badge-skill {
+    background: #eef2ff;
+    color: #105897;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 0.3rem 0.7rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    display: inline-block;
+  }
+  .note-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 0.75rem;
+    border-left: 3px solid #105897;
+    padding-left: 0.75rem;
+  }
+  .former-block {
+    background: #f2f4f8;
+    border-radius: 28px;
+    padding: 1.8rem 1.2rem;
+    margin-top: 2rem;
+  }
+  .pet-card {
+    background: #ffffffdd;
+    backdrop-filter: blur(2px);
+    border-radius: 36px;
+    transition: all 0.2s;
+  }
+  .join-card {
+    background: linear-gradient(120deg, #eef4fc, #e0edf9);
+    border-radius: 32px;
+    border: 1px solid #cde0f0;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  .join-card:hover {
+    transform: translateY(-4px);
+  }
+  .btn-primary-custom {
+    background-color: #105897;
+    border-color: #105897;
+    color: white;
+    border-radius: 40px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+  .btn-primary-custom:hover {
+    background-color: #0a3f6b;
+    border-color: #0a3f6b;
+    box-shadow: 0 4px 10px rgba(16, 88, 151, 0.3);
+    color: white;
+  }
+  .join-img-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+  .join-img-col img:hover {
+    transform: scale(1.02);
+  }
+}
+
+.home-news-list {
+  .news-list-item {
+    border-top: 1px solid #dee2e6;
+    margin: 0 0 1rem 0;
+    padding: 1rem 0 0.2rem 0;
+
+    a {
+      color: #000 !important;
+    }
+  }
+}
+
+.home-positions-list {
+  .pos-subtitle {
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+  }
+  .li-positions {
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.job-items-list {
+  .job-item {
+    .separator {
+      border-top: 1px solid lightgray;
+      height: 1px;
+      margin: 2rem 0;
+    }
+
+    .job-type {
+      font-weight: bolder;
+      // font-family: "Inconsolata";
+    }
+    .job-title {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.page-contacts {
+  .contact-item {
+    min-height: 20rem;
+    margin-bottom: 1rem;
+    background: #f9fbfd;
+  }
+
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    background: #ffebee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    color: var(--accent-red);
+    font-size: 1.3rem;
+  }
+}
+
+.page-footer {
+  background-color: #ffffff;
+  // color: #2c3e50;
+  padding: 3rem 0;
+  margin-top: 5rem;
+  border-top: 1px solid #e9ecef;
+
+  .footer-classic .lab-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    // color: #1a3a4a;
+  }
+
+  .footer-classic .institution-name {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-align: left;
+    // color: #5a6e7c;
+  }
+
+  .footer-classic h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    // color: #1a3a4a;
+  }
+
+  .footer-classic address {
+    font-style: normal;
+    line-height: 1.6;
+    font-size: 0.85rem;
+    // color: #5a6e7c;
+  }
+
+  .footer-classic .address-note {
+    font-size: 0.75rem;
+    // color: #8c9aa8;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  .footer-classic .social-link {
+    // color: #5a6e7c;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    transition: color 0.2s;
+  }
+
+  .footer-classic .social-link:hover {
+    // color: #2c5f8a;
+    text-decoration: none;
+  }
+
+  .footer-classic .footer-copyright {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    border-top: 1px solid #e9ecef;
+    font-size: 0.8rem;
+    // color: #8c9aa8;
+  }
+}
+
+/* 页脚点缀 */
+.footer {
+  // padding: 2rem 4rem;
+  // border-top: 1px solid #e0e0e0;
+  // display: flex;
+  // justify-content: center;
+  // color: #666;
+  // background: #ffffff;
+}
+
+.site-footer .powered-by {
+  display: none;
+}
+
+// 手机
+@media (max-width: 478px) {
+  .navbar-brand {
+    margin: 0 auto;
+  }
+
+  .research-list-wrap {
+    grid-template-columns: 1fr !important;
+  }
+
+  .site-wrapper {
+    margin: 0;
+    width: 100%;
+    box-shadow: unset;
+    border-radius: 0;
+  }
+
+  .wg-home-slide {
+    .carousel-item {
+      height: 450px;
+    }
+    .hero-title {
+    }
+
+    .carousel-inner .wg-hero {
+      padding: 1rem;
+      width: 90%;
+      margin: auto !important;
+    }
+  }
+
+  #section-home-content .home-content-wrap {
+    padding: 1rem;
+  }
+
+  .home-content-wrap {
+    .home-images-gallery {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .people-list-wrap {
+    .card-title {
+      font-size: 1.2rem;
+    }
+    .section-title {
+      font-size: 1.6rem;
+    }
+    .join-img-col {
+      padding: 0.5rem;
+    }
+  }
+}

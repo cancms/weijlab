@@ -1,0 +1,24 @@
+{{ $item := .item }}
+{{ $group_item := .group_item }}
+
+<div class="card card-member member-item h-100">
+                <img class="card-img-top" src="{{$item.photo | relURL}}" alt="{{$item.name | markdownify }}">
+                <div class="card-body">
+                    <div class="member-role"><i class="{{$group_item.member_icon }}"></i> {{$group_item.title | markdownify }}</div>
+                    <h5 class="card-title">{{$item.name | markdownify }}</h5>
+                    {{if $item.since}}
+                    <div class="member-info"><i class="far fa-calendar-alt"></i> Since {{$item.since | markdownify }}</div>
+                    {{end}}
+
+                    {{if $item.education}}
+                    <div class="member-info"><i class="fas fa-university"></i>
+                      <span class="m-university">{{$item.education | markdownify }}</span>
+                    </div>
+                    {{end}}
+
+                    {{if $item.skills}}
+                    <div><i class="fas fa-cogs"></i> <span class="badge-skill">{{$item.skills | markdownify }}</span></div>
+                    {{end}}
+
+                </div>
+            </div>

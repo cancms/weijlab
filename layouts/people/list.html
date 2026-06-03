@@ -1,0 +1,100 @@
+{{- define "main" -}} {{$members_all := site.Data.members.lab_members }}
+{{$members_former_all := site.Data.members.former_lab_members }}
+{{$other_members := site.Data.members.other_team_members }}
+{{$lab_pet := $other_members.lab_pet }}
+
+<div class="container people-list-wrap pt-3">
+  <div class="section-heading mb-5">
+    <h1 class="mb-0 list-page-h1-heading">{{.Title}}</h1>
+  </div>
+  <div class="group-member-list-wrap">
+    {{range $index1, $group_item := .Params.current_groups }}
+    <div class="col-12 list-member-group-row">
+      <h2 class="g-section-title">
+        <i class="{{$group_item.icon}}"></i> {{$group_item.title | markdownify |
+        emojify }}
+      </h2>
+    </div>
+    <div class="row list-member-row">
+      {{range $index2, $member_item := index $members_all $group_item.key }}
+      <div class="col-12 col-md-4">
+        {{ partial "views/member_item" (dict "item" $member_item "index" $index2
+        "group_item" $group_item) }}
+      </div>
+      {{end}}
+    </div>
+    {{end}}
+
+    <div class="former-block">
+      {{range $index1, $group_item := .Params.former_groups }}
+      <div class="col-12 list-member-group-row">
+        <h2 class="g-section-title">
+          <i class="{{$group_item.icon}}"></i> Former Lab Members
+        </h2>
+        {{/*
+        <h2 class="g-section-title">
+          <i class="{{$group_item.icon}}"></i> {{$group_item.title | markdownify
+          | emojify }}
+        </h2>
+        */}}
+      </div>
+      <div class="row list-member-row">
+        {{range $index2, $member_item := index $members_former_all
+        $group_item.key }}
+        <div class="col-12 col-md-4">
+          {{ partial "views/member_item" (dict "item" $member_item "index"
+          $index2 "group_item" $group_item) }}
+        </div>
+        {{end}}
+      </div>
+      {{end}}
+    </div>
+
+
+
+    <div class="col-12 list-member-group-row">
+      <h2 class="g-section-title">
+        <i class="fas fa-cat pet-icon"></i> Other team members
+      </h2>
+    </div>
+    <div class="row list-member-row">
+
+        <div class="card pet-card h-100 border-0 shadow-sm w-100">
+                <div class="row no-gutters  ">
+                    <div class="col-md-3 text-center p-4">
+                        <img src="{{$lab_pet.photo | relURL}}" class="img-fluid "  alt="{{$lab_pet.name | markdownify | emojify}}">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title" style="padding-left: 1rem;">  Lab Pet: {{$lab_pet.name | markdownify | emojify}}</h5>
+                            <p class="card-text">{{$lab_pet.description | markdownify | emojify}}</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+
+
+
+     <div class="former-block ">
+      <div class="row  ">
+        <div class="want-you-img col-12 col-md-4">
+          <img src="{{"images/members/we-want-you.jpg" | relURL}}" alt="We want you!" />
+        </div>
+        <div class="we-col-12 col-md-8 d-flex align-items-center text-center">
+          <div class=" " style="flex:1;">
+            <div class="want-you-text"> We want you! </div>
+            <div><a href="{{"opportunities" | relURL}}" class="btn btn-primary-custom px-4 want-you-btn"><i class="fas fa-paper-plane"></i> Join Us!</a></div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+
+
+
+  </div>
+</div>
+
+{{- end -}}

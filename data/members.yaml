@@ -1,0 +1,67 @@
+lab_members:
+  research_fellow:
+    - name: Zhang Xinran
+      since: Sep 2024
+      education: Huazhong Agricultural University (Ph.D.)
+      photo: images/members/zxr-3.jpg
+    - name: He Luo
+      since: Aug 2025
+      education: Tsinghua University (Ph.D.)
+      photo: images/members/wechatimg61.jpg
+
+  research_assistants:
+    - name: Xu Yuzhi
+      education: |
+       Ph.D student at New York University
+       South China University of Technology (B.S.)
+      skills: AI for RNA/protein
+      photo: images/members/xu-yuzhi.jpg
+    - name: Guo Ziyan
+      education: Sun Yat-sen University (M.S.)
+      skills: Bioinformatics
+      photo: images/members/e59bbee789872.jpg
+
+  phd_students:
+    - name: Zhang Zengyuan
+      since: Jan 2024
+      education: Institute of Microbiology, Chinese Academy of Sciences (M.S.)
+      photo: images/members/zzy-1.jpg
+    - name: Han Zhanghui
+      since: Aug 2024
+      education: Shanghai Jiao Tong University (M.S.)
+      photo: images/members/hzh.jpg
+    - name: Wu Ruoyue
+      since: Jan 2025
+      education: Sun Yat-sen University (M.S.)
+      photo: images/members/wechatimg190.jpg
+    - name: Chin Kai Shin
+      since: Aug 2025
+      education: University of Galway, Ireland (M.S.)
+      photo: images/members/wechatimg28.webp
+    - name: Meng Chen
+      since: Aug 2025
+      education: Fudan University (M.S.)
+      photo: images/members/wechatimg3.jpg
+    - name: Chin Ee moon
+      since: Aug 2025
+      education: Co-advised with Dr. Liu Shuang at IMCB
+      photo: images/members/chinenmoon.webp
+
+former_lab_members:
+    research_fellow:
+      - name: Li Xuyang
+        education: University of Copenhagen (Ph.D.)
+        photo: images/members/lxy-3.jpg
+      - name: Shi Yajing
+        education: Wuhan University (Ph.D.)
+        photo: images/members/syj-4.jpg
+
+other_team_members:
+    lab_pet:
+      name: Jiamo
+      description: |
+        Meet Jiamo, an enchanting mixed domestic shorthair. Born in the United States in April 2021,
+        she has sprouted into quite a big girl, tipping the scales at a robust 15 lbs. Her favorite pastime?
+        Engaging with humans and savoring freeze-dried raw meat. With her, you will discover inner peace,
+        boundless love, infectious joy, and insatiable curiosity – a one-of-a-kind feline companion.
+      photo: images/members/lab-pet.jpg
