@@ -5,9 +5,18 @@
 {{- $query := site.Data.publications -}}
 {{- $query = sort $query "year" "desc" -}}
 
-{{ partial "page_header.html" . }}
 
-<div class="universal-wrapper mt-5">
+<div class="container mt-5 gallery-list-page">
+
+  <div class="article-title mt-4 mb-4">
+    <h1 class="mb-0 common-page-h1-title">
+      {{ .Title | markdownify | emojify }}
+    </h1>
+    {{ with .Params.subtitle }}
+    <p class="mt-1 common-page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+  </div>
+
   <div class="row">
     <div class="col-lg-12">
 

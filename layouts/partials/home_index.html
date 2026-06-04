@@ -30,9 +30,8 @@ $slider_hash_id := "hero_sliders" }} {{ $slider_args := dict "wcPage" $
   </div>
 </section>
 
-{{/* research direction */}} {{ $show_limit := .Params.research.show_limit }} {{
-$research_items := partial "functions/get_type_items" (dict "item_type"
-"research" "limit" $show_limit ) }}
+{{/* research direction */}}
+{{$directions := .Params.research_directions }}
 <section id="research" class="home-section wg-hero">
   <div class="container">
     <div class="row">
@@ -40,10 +39,19 @@ $research_items := partial "functions/get_type_items" (dict "item_type"
         {{ .Params.research.title | markdownify }}
       </div>
     </div>
-    <div class="research-list-wrap">
-      {{ range $index, $item := $research_items }} {{ partial
-      "functions/render_view" (dict "item" $item "view" "research_item_card"
-      "index" $index) }} {{end}}
+    <div class="research-list-wrap row">
+       <!-- 研究方向: 轻量网格 -->
+
+                {{range $index, $item := $directions }}
+                <div class="col-md-4">
+                  <div class="bg-soft-blue rounded-3 p-3 h-100">
+                    <div class="r-img mb-3"><img alt="" src="{{$item.image|relURL}}"/></div>
+                    <i class="{{$item.icon}} fa-lg text-accent mb-2 mr-3"></i>
+                    <span class="fw-bold">{{$item.title | markdownify | emojify}} </span>
+                    <p class="  text-secondary mt-2 mb-0">{{$item.description | markdownify | emojify}}</p>
+                  </div>
+                </div>
+                {{end}}
     </div>
   </div>
 </section>
@@ -66,9 +74,9 @@ $featured_pubs }}
   </div>
 </section>
 
-{{/* selected news */}} {{ $news_section := site.GetPage "/news" }} {{
-$featured_news := $news_section.RegularPagesRecursive.ByDate.Reverse }} {{
-$featured_news_limit := first .Params.featured_news.show_limit $featured_news }}
+{{/* selected news */}}
+{{- $all_news := site.Data.news.news_list -}}
+{{$featured_news_limit := first .Params.featured_news.show_limit $all_news }}
 <section id="featured_news" class="home-section">
   <div class="container">
     <div class="row">
@@ -83,8 +91,8 @@ $featured_news_limit := first .Params.featured_news.show_limit $featured_news }}
   </div>
 </section>
 
-{{/* selected positions */}} {{ $featured_positions := first
-.Params.featured_positions.show_limit site.Data.jobs.opportunities }}
+{{/* selected positions */}}
+{{ $featured_positions := first .Params.featured_positions.show_limit .Params.featured_positions.positions }}
 <section id="featured_positions" class="home-section">
   <div class="container">
     <div class="row">
@@ -106,7 +114,7 @@ $featured_news_limit := first .Params.featured_news.show_limit $featured_news }}
           {{ .Params.featured_positions.contact_email | markdownify }}
         </div>
         <div>
-          <a href="{{"opportunities" | relURL }}" class="btn btn-primary mt-3" style="font-weight: bold;" >View Details
+          <a href="{{"joinus" | relURL }}" class="btn btn-primary mt-3" style="font-weight: bold;" >View Details
           </a>
         </div>
       </div>

@@ -1,0 +1,31 @@
+{{/*
+
+{{< split image="images/my-photo.jpg" alt="我的照片" reverse="true" >}}
+这里是右侧的文字内容，**你依然可以使用 Markdown 语法**！
+{{< /split >}}
+
+
+{{ .Get "image" }}：获取传入的 image 参数。
+{{ if .Get "reverse" }}split-reverse{{ end }}：如果传了 reverse="true"，就加上 split-reverse 类名，用于 CSS 翻转顺序。
+{{ .Inner | markdownify }}：将短代码标签内部的 Markdown 内容渲染为 HTML（这意味着你可以在里面正常使用 Markdown 语法写文字）。
+
+<!--
+  参数说明:
+  reverse: 可选。如果传入 "true"，则图片在右边，文字在左边。
+  image: 图片的路径（相对于 static 目录，或使用外部 URL）
+  alt: 图片的替代文本
+-->
+  */}}
+
+  {{- $img_style := .Get "img_style" | default "" | safeCSS  -}}
+  <div class="shortcode-split-wrap">
+    <div class="row split-container {{ if eq (.Get "reverse") "true" }}split-reverse{{ end }}">
+      <div class="col-12 col-md-6 split-image">
+        <img src="{{ .Get "image" | relURL }}" alt="{{ .Get "alt" | default "" }}"  style="{{$img_style}}" loading="lazy" />
+      </div>
+      <div class="col-12 col-md-6 split-text">
+        {{ .Inner | markdownify }}
+      </div>
+    </div>
+  </div>
+

@@ -4,8 +4,8 @@
 {{$lab_pet := $other_members.lab_pet }}
 
 <div class="container people-list-wrap pt-3">
-  <div class="section-heading mb-5">
-    <h1 class="mb-0 list-page-h1-heading">{{.Title}}</h1>
+  <div class="section-heading mb-3">
+    <h1 class="mt-3  common-page-h1-title">{{.Title}}</h1>
   </div>
   <div class="group-member-list-wrap">
     {{range $index1, $group_item := .Params.current_groups }}
@@ -17,7 +17,7 @@
     </div>
     <div class="row list-member-row">
       {{range $index2, $member_item := index $members_all $group_item.key }}
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 m-cell">
         {{ partial "views/member_item" (dict "item" $member_item "index" $index2
         "group_item" $group_item) }}
       </div>
@@ -85,7 +85,7 @@
         <div class="we-col-12 col-md-8 d-flex align-items-center text-center">
           <div class=" " style="flex:1;">
             <div class="want-you-text"> We want you! </div>
-            <div><a href="{{"opportunities" | relURL}}" class="btn btn-primary-custom px-4 want-you-btn"><i class="fas fa-paper-plane"></i> Join Us!</a></div>
+            <div><a href="{{"joinus" | relURL}}" class="btn btn-primary-custom px-4 want-you-btn"><i class="fas fa-paper-plane"></i> Join Us!</a></div>
           </div>
         </div>
       </div>

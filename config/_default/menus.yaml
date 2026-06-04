@@ -21,7 +21,7 @@ main:
 
 
   - name: About PI
-    url: "pi"
+    url: "author/Jiangbo-Wei"
     weight: 60
 
 
@@ -39,5 +39,5 @@ main:
     weight: 90
 
   - name: Join Us
-    url: "opportunities"
+    url: "joinus"
     weight: 100

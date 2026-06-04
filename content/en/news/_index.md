@@ -1,6 +1,36 @@
 ---
-title: News & Events
+title: News
  
+# moved to data/news.yaml   
+ 
+# news_list:
   
+#   - date: Aug 2024
+#     lead_image: ""
+#     content: |
+#       Welcome graduate student Zhanghui to the lab. Welcome aboard!
+
+
+#   - date: July 2024
+#     lead_image: ""
+#     content: |
+#       Our lab receive the support from AcRF Tier 1.
+      
+      
+
+
+#   - date: Jan 2024
+# #    lead_image: "images/news/awards.jpg"
+#     content: |
+#       OWelcome our first graduate student Zengyuan to the lab. Welcome aboard!
+      
+      
+
+#   - date: Sept 2023
+#     lead_image: ""
+#     content: |
+#       In January 2024, the Wei Lab debuts. Jiangbo is thrilled to join the Department of Chemistry and the Department of Biological Sciences at the National University of Singapore! Awaiting visionary and talented minds, together we will propel the interdisplinery field of RNA Modification, Epigenetics, Biochemistry and Molecular Biology, and Chemical Biology into new realms. Join us in shaping tomorrow!
+      
+        
 ---
 

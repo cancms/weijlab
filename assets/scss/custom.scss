@@ -326,19 +326,16 @@ h6 {
   }
 }
 
-h1.common-page-h1-title {
-  // font-family: "Inconsolata" !important;
+.universal-wrapper h1 {
+  text-align: left;
+}
+h1 {
   font-weight: 500;
-  text-transform: uppercase; /* 全部大写 */
-  letter-spacing: 0.5rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 
-h2.common-page-h1-title {
-  // font-family: "Inconsolata" !important;
-  // font-weight: 500;
-  // text-transform: uppercase; /* 全部大写 */
-  // letter-spacing: 0.5rem;
-}
 .list-page-index-sidebar {
   // font-family: "Inconsolata";
   margin: 0 0 1rem 0;
@@ -356,53 +353,6 @@ h2.common-page-h1-title {
   // font-family: "Inconsolata";
   .article-date {
     display: none;
-  }
-}
-
-.article-research {
-  .featured-image {
-    width: unset;
-  }
-  ol {
-    padding-inline-start: 1rem;
-  }
-}
-
-.research-list-page,
-#research {
-  .page-list-subcategory {
-    padding: 1rem 0 0 0;
-  }
-  .research-list-wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    // padding: 10px;
-
-    //.card-simple:first-of-type {
-    //  margin-top: 20px !important;
-    //}
-    .card-simple {
-      margin-top: 0 !important;
-      border: 0px solid rgba(0, 0, 0, 0.176);
-      border-radius: unset;
-    }
-  }
-
-  .common-page-h2-title {
-    margin: 0 0 1rem 0;
-  }
-  .section-heading h1 {
-    margin: 20px 0 10px 0;
-  }
-  .article-title a {
-    // color: $text-primary-color;
-    font-size: 1.1rem;
-  }
-
-  .card-simple .article-style {
-    font-size: 0.9rem;
-    text-align: justify;
   }
 }
 
@@ -457,8 +407,8 @@ h2.common-page-h1-title {
   // font-family: "Inconsolata";
   margin: 2rem 0;
   font-weight: 500;
-  text-transform: uppercase; /* 全部大写 */
-  letter-spacing: 0.5rem;
+  // text-transform: uppercase; /* 全部大写 */
+  // letter-spacing: 0.5rem;
 
   font-size: 2.5rem;
 }
@@ -482,19 +432,23 @@ h2.common-page-h1-title {
 
 .people-list-wrap {
   .g-section-title {
-    position: relative;
     margin: 2rem 0 1.5rem;
     padding-bottom: 0.75rem;
-    font-weight: 700;
-    color: #1e466e;
-    border-bottom: 2px solid #105897;
+    font-weight: 500;
+    color: #313131;
+    border-bottom: 1px solid #313131;
     display: inline-block;
 
     i {
-      color: #105897;
+      color: #313131;
       margin-right: 10px;
-      font-weight: 900;
     }
+  }
+  .list-member-row {
+    margin-bottom: 1.5rem;
+  }
+  .m-cell {
+    margin-bottom: 1.5rem;
   }
 
   .card-member {
@@ -542,7 +496,7 @@ h2.common-page-h1-title {
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #0b2b40;
+    color: #313131;
   }
   .member-role {
     font-size: 0.8rem;
@@ -564,11 +518,11 @@ h2.common-page-h1-title {
     text-indent: -1rem;
   }
   .want-you-text {
-   padding: 0 0 3rem 0;
+    padding: 0 0 3rem 0;
     font-size: 2.5rem;
   }
   .want-you-btn {
-        font-size: 2rem;
+    font-size: 2rem;
     padding: 1rem 3rem !important;
   }
   .member-info i {
@@ -642,6 +596,11 @@ h2.common-page-h1-title {
     transform: scale(1.02);
   }
 }
+#profile-page {
+  .article-style {
+    text-align: justify;
+  }
+}
 
 .home-news-list {
   .news-list-item {
@@ -667,43 +626,298 @@ h2.common-page-h1-title {
   }
 }
 
-.job-items-list {
-  .job-item {
-    .separator {
-      border-top: 1px solid lightgray;
-      height: 1px;
-      margin: 2rem 0;
+.research-list-page {
+  .split-container {
+    .split-image {
+      width: 100%;
+      height: 16rem;
+      overflow: hidden;
+      img {
+        margin: 0.5rem auto 0 auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
-
-    .job-type {
-      font-weight: bolder;
-      // font-family: "Inconsolata";
-    }
-    .job-title {
-      font-weight: bold;
-      font-size: 1.5rem;
+  }
+  .list-content {
+    .shortcode-split-wrap {
+      text-align: justify;
+      padding: 6rem 0 1rem 0;
     }
   }
 }
 
-.page-contacts {
-  .contact-item {
-    min-height: 20rem;
-    margin-bottom: 1rem;
-    background: #f9fbfd;
+#research.home-section {
+  .r-img {
+    width: 100%;
+      height: 12.5rem;
+      overflow: hidden;
+      img {
+        margin: 0.5rem auto 0 auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  }
+}
+
+/* 结构化两栏布局容器 */
+.shortcode-split-wrap {
+  .split-container {
+    .split-image {
+      width: 100%;
+      // height: 16rem;
+      overflow: hidden;
+      img {
+        margin: 0.5rem auto 0 auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .split-text {
+      text-align: justify;
+    }
   }
 
-  .contact-icon {
-    width: 48px;
-    height: 48px;
-    background: #ffebee;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1.2rem;
-    color: var(--accent-red);
-    font-size: 1.3rem;
+  /* 右图左文模式：通过 order 调换位置 */
+  .split-reverse .split-image {
+    order: 2; /* 图片排第二（右边） */
+  }
+
+  .split-reverse .split-text {
+    order: 1; /* 文字排第一（左边） */
+  }
+}
+
+.gallery-list-page {
+  .article-style {
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -10px;
+      margin-right: -10px;
+
+      .gallery-item {
+        height: 22rem;
+        width: 30%;
+        margin: 0 1rem 1.3rem 0;
+        overflow: hidden;
+        max-width: calc(100% - 20px);
+
+        .character-desc {
+          z-index: 50;
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+    h2 {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.page-news {
+  .news-list-wrap {
+    background: #fff;
+    //box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    //padding: 1.5rem;
+    margin: 0 0 2rem 0;
+    //transition: all .3s ease;
+    //border: 1px solid #f0f0f0;
+  }
+
+  .news-list-wrap:hover {
+    //transform: scale(1.01);
+    //box-shadow: 0 10px 25px rgba(21, 101, 192, .15) !important;
+    //border-color: $navbar-theme-bg-primary !important;
+  }
+  .news-item {
+    padding: 2rem 0;
+    border-top: 1px solid #e2e8f0;
+    strong {
+      margin-right: 0.5rem;
+    }
+    .lead-content {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      .news-date {
+        font-weight: bold;
+      }
+    }
+    .news-content {
+      text-align: justify;
+    }
+  }
+  .news-item:last-child {
+    border-bottom: none !important;
+  }
+}
+
+.page-join-us {
+  .research-directions {
+    padding: 0 0 1.5rem 1rem !important;
+  }
+  .position-card:hover {
+    // transform: translateY(-5px);
+    box-shadow: 0 25px 40px -14px rgba(0, 0, 0, 0.18);
+  }
+  /* Card styling – clean, elevated, with accent border */
+  .position-card {
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    // transition:
+    //   transform 0.2s ease,
+    //   box-shadow 0.2s ease;
+    border: 1px solid rgba(16, 88, 151, 0.15);
+
+    /* Card Header: deep accent background with white text, modern */
+    .card-header-custom {
+      // background: #f5f9fe; // #105897; /* primary deep blue accent */
+      background-color: rgba(16, 88, 151, 0.05);
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #e2ecf9; // 3px solid #ffb347; /* warm orange accent line */
+    }
+
+    .position-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      margin: 0;
+      color: #1e2f3a; //  #105897;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .badge-openings {
+      background: #e4edf6;
+      backdrop-filter: blur(2px);
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 0.35rem 1rem;
+      border-radius: 40px;
+      color: #105897;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .card-body-content {
+      padding: 1.8rem 2rem 2.2rem 2rem;
+    }
+
+    /* Section styling: Requirements heading */
+    .requirements-heading {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 1.2rem;
+      border-left: 4px solid #105897;
+      padding-left: 1rem;
+    }
+
+    .requirements-heading i {
+      font-size: 1.6rem;
+      color: #105897;
+    }
+
+    .requirements-heading h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+      color: #1e2f3a;
+    }
+
+    .list-requirements {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0.5rem;
+    }
+
+    .list-requirements li,
+    .list-requirements p {
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 1rem;
+      line-height: 1.45;
+      color: #1f2e3a;
+
+      i {
+        color: #105897;
+        font-size: 1.2rem;
+        margin-top: 0.2rem;
+        min-width: 1.4rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .cta-mail {
+    font-size: 1.5rem;
+    margin-right: 1rem !important;
+    // color: #105897;
+  }
+  .lab-card {
+    border-radius: 1rem;
+
+    .card-img-custom {
+      margin: 0 auto;
+    }
+  }
+  .apply-email {
+    background: #f0f6fe;
+    padding: 0.9rem 1.5rem;
+    display: inline-block;
+    width: 14rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: 1rem;
+    word-break: break-all;
+    margin: 0.8rem 0 1rem;
+    border: 1px solid #d9e6f5;
+  }
+
+  .card-light {
+    /* 主色调蓝色点缀 #105897 */
+    .text-accent {
+      color: #105897 !important;
+    }
+    .border-accent {
+      border-color: #105897 !important;
+    }
+    .bg-soft-blue {
+      background-color: rgba(16, 88, 151, 0.05) !important;
+    }
+    .btn-outline-accent {
+      border: 1px solid #105897;
+      color: #105897;
+      background: white;
+      transition: all 0.2s ease;
+    }
+    .btn-outline-accent:hover {
+      background-color: #105897;
+      color: white;
+      border-color: #105897;
+    }
+    .btn-accent-solid {
+      background-color: #105897;
+      border: none;
+      color: white;
+      transition: all 0.2s ease;
+    }
+    .btn-accent-solid:hover {
+      background-color: #0c426e;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(16, 88, 151, 0.2);
+    }
   }
 }
 
@@ -791,10 +1005,6 @@ h2.common-page-h1-title {
     margin: 0 auto;
   }
 
-  .research-list-wrap {
-    grid-template-columns: 1fr !important;
-  }
-
   .site-wrapper {
     margin: 0;
     width: 100%;
@@ -837,6 +1047,21 @@ h2.common-page-h1-title {
     }
     .join-img-col {
       padding: 0.5rem;
+    }
+  }
+  .shortcode-split-wrap {
+    .split-reverse .split-image,
+    .split-reverse .split-text {
+      order: 0; /* 恢复默认文档流顺序 */
+    }
+  }
+  .gallery-list-page {
+    .article-style {
+      .gallery {
+        .gallery-item {
+          width: 100%;
+        }
+      }
     }
   }
 }

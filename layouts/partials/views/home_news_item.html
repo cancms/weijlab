@@ -16,18 +16,14 @@
 <li class="news-list-item row">
 
   <div class="col-12 col-md-2">
-    {{with $item.Params.date}}
-    <a target="_blank" href="{{$item.RelPermalink}}">
-    <span class="it-light-gary  "> {{ .  | time.Format "2006-01-02" }}  </span>
-    </a>
+    {{with $item.date}}
+    <span class="it-light-gary  "> {{ .  }}  </span>
     {{end}}
   </div>
 
 
   <div class="col-12 col-md-10">
-    <a target="_blank" href="{{$item.RelPermalink}}">
-      <span class="news-list-text-one"> {{$item.Title | markdownify | emojify }} </span>
-    </a>
+      <span class="news-list-text-one"> {{$item.content | markdownify | emojify }} </span>
   </div>
 
 </li>

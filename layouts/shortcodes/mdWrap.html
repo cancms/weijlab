@@ -1,0 +1,15 @@
+{{/*
+
+{{< mdWrap css_class="md-content" style="text-align: right;"  >}}
+这里是右侧的文字内容，**你依然可以使用 Markdown 语法**！
+{{< /split >}}
+
+ 
+*/}}
+
+  {{- $css_class :=  .Get "css_class" | default ""  -}}
+  {{- $css_style :=  .Get "css_style" | default ""  -}}
+  <div class="shortcode-md-wrap {{ $css_class }}" style="{{ $css_style }}">
+    {{ .Inner | markdownify | emojify }}
+  </div>
+
