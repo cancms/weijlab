@@ -21,7 +21,7 @@ main:
 
 
   - name: About PI
-    url: "author/Jiangbo-Wei"
+    url: "people/pi"
     weight: 60
 
 

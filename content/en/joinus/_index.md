@@ -39,7 +39,7 @@ open_positions:
 {{< split image="images/joinus/j2.webp" alt="" reverse="false" >}}
 
 
-The research group led by [**Dr. Jiangbo Wei**](../author/Jiangbo-Wei), Presidential Young Professor at the National University of Singapore (NUS), is affiliated with the Department of Chemistry and Department of Biological Sciences under the Faculty of Science, NUS. Dr. Wei also serves as a Research Fellow at the Cancer Science Institute of Singapore (CSI).
+The research group led by [**Dr. Jiangbo Wei**](../people/pi), Presidential Young Professor at the National University of Singapore (NUS), is affiliated with the Department of Chemistry and Department of Biological Sciences under the Faculty of Science, NUS. Dr. Wei also serves as a Research Fellow at the Cancer Science Institute of Singapore (CSI).
 
 Our lab features a highly interdisciplinary research focus and maintains in-depth collaborations with internationally renowned research groups such as the University of Chicago and Hong Kong University of Science and Technology. We focus on **chemical biology, nucleic acid chemistry and biology, epigenetics, biochemistry and molecular biology, and bioinformatics**, dedicated to investigating the regulatory mechanisms of RNA modifications on gene expression and chromatin structure, as well as their functions in human diseases (especially cancer) and animal/plant development processes.
 
