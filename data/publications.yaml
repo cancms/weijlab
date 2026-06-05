@@ -1,105 +1,616 @@
-  - title: "Generative urban climate modeling using coupled GAN-UWG frameworks: Morphological strategies for transformation and adaptive heat mitigation"
-    authors_text: "Xiong, Z., Wang, M., Zhao, J., Yuan, H., Sun, C., Zhou, S., ... & Qi, J.*"
+featured_codes:
+  - "zou_2023_molcell"
+  - "zhang_j_2023_molcell"
+  - "he_pc_2023_science"
+  - "wei_2022_science"
+  - "sheng_2021_blood"
+  - "yang_z_2021_pnas"
+  - "yu_2021_nar"
+  - "cui_yh_2021_natcommun"
+  - "yang_s_2019_natcommun"
+  - "wei_2018_molcell"
+
+
+publications:
+  - code: "wei_2026_cell"
+    title: "RNA modifications in gene regulation: Functions and pathways"
+    authors_text: "**J. Wei**†, C. He*"
     year: 2026
-    journal: "Urban Climate, 65, 102786"
-    research_topic: "Thermal Comfort"
+    journal: 'Cell. <span class="j-year">2026</span>, 189(6), 1591–1619'
+    doi: "10.1016/j.cell.2026.01.006"
     links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.uclim.2026.102786
+      - url: "https://doi.org/10.1016/j.cell.2026.01.006"
+        name: "DOI"
+    note: []
 
-
-  - title: "A new method for planning long-distance trails using wilderness quality mapping and trajectory data: A case study of the Taihang Mountain National Forest Trail in China"
-    authors_text: "Chen, Y., Cao, Y., Ye, Z., Liu, T., Wang, P., Feng, Y., ... & Yang, R."
+  - code: "zhang_2026_abiotech"
+    title: "RNA modifications and epigenetic regulation in plants"
+    authors_text: "X. Zhang†, **J. Wei***"
     year: 2026
-    journal: "Journal of Environmental Management, 402, 129019"
-    research_topic: "Computational urban and landscape design"
+    journal: 'aBIOTECH. <span class="j-year">2026</span>, 7(2), 100020'
+    doi: "10.1016/j.abiote.2026.100020"
     links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.jenvman.2026.129019
+      - url: "https://doi.org/10.1016/j.abiote.2026.100020"
+        name: "DOI"
+    note: []
 
-
-  - title: "A cross-city transferable convolutional neural network framework for assessing street-scale flood risks in urban networks"
-    authors_text: "Wang, M., Zhuang, J. A., Zhao, J., Sun, C., Li, J., Zhou, L., ... & Qi, J.*"
+  - code: "ji_2025_cancerdiscov"
+    title: "Serotonin modulates lineage plasticity in neuroendocrine prostate cancer via epigenetic reprogramming"
+    authors_text: "Y. Ji†, C.W. Ju†, L. Chen†, K. Shen, R. Su, A. Li, X. Liu, B. Liu, X. Zhang, R. Lyu, P. Xia, H. Li, Y. Pan, Y. Liu, M. H. Tse, Y. Xue, H. Qian, N. Jing, H. H. Zhu, L. Wang, L.S. Zhang, S.-H. Jiang, W. Zhang, L. Dong, Z. Yan, J. Pan, Y. Zhu*, **J. Wei***, Q. Wang*, W. Xue*"
     year: 2025
-    journal: "Journal of Environmental Management, 395, 127977"
-    research_topic: "Computational urban and landscape design"
+    journal: 'Cancer Discov. <span class="j-year">2025</span>, Dec 19'
+    doi: "10.1158/2159-8290.CD-25-0974"
     links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.jenvman.2025.127977
+      - url: "https://doi.org/10.1158/2159-8290.CD-25-0974"
+        name: "DOI"
+    note: []
 
-
-  - title: "Tourism-related short-term migration for heat adaptation: Impacts of socio-economic-institutional, climatic, socio-interactive, emotional, and perceptive-behavioral-psychological factors and implications for responsible tourism development"
-    authors_text: "He, B. J., Qi, J., Cheshmehzangi, A., Attia, S., Prasad, D., Zahed, L. M., ... & Liu, Z."
+  - code: "yang_s_2025_natcommun"
+    title: "YTHDF2 regulates self non-coding RNA metabolism to control inflammation and tumorigenesis"
+    authors_text: "S. Yang†, Y.H. Cui†, H. Li†, **J. Wei**†, G. Park, M. Sun, M. Verghese, E. Wilkinson, T. Nam, L. L. Lungstrom, X. Cui, T. Y. Ryu, J. Chen, M. Bissonnette, C. He, Y.Y. He*"
     year: 2025
-    journal: "Human Settlements and Sustainability, 1(4), 290-303"
-    research_topic: "Thermal Comfort"
-    links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.hssust.2025.09.004
+    journal: 'Nat. Commun. <span class="j-year">2025</span>, 16, 9946'
+    doi: ""
+    links: []
+    note: []
 
-
-  - title: "Climate-driven transformations: A framework for the sustainable urban landscape system to enhance heat resilience"
-    authors_text: "Huang, B., Qi, J., Pathak, M., Sharifi, A., Cheshmehzangi, A., Attia, S., ... & He, B. J."
+  - code: "yang_z_2025_photochemphotobiol"
+    title: "Targeting the m6A RNA demethylase FTO enhances UVB-induced DNA damage repair and suppresses skin tumor growth"
+    authors_text: "Z. Yang†, M. Verghese, Y.H. Cui, J. Wei, S. Yang, C. He, Y.Y. He*"
     year: 2025
-    journal: "Sustainable Cities and Society, 106684"
-    research_topic: "Thermal Comfort"
+    journal: 'Photochem. Photobiol. <span class="j-year">2025</span>'
+    doi: "10.1111/php.70060"
     links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.scs.2025.106684
+      - url: "https://doi.org/10.1111/php.70060"
+        name: "DOI"
+    note: []
 
-
-
-  - title: "A Decision-Making Framework to Support Urban Heat Mitigation by Local Governments"
-    authors_text: "Qi, J.*, Ding, L., & Lim, S."
-    journal: "Resources, Conservation & Recycling (JCR Q1), 184, 106420"
-    year: 2022
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
+  - code: "wilkinson_2025_cellrep"
+    title: "Arsenic regulates ALKBH1 abundance and substrate specificity to promote translation and tumorigenicity"
+    authors_text: "E. Wilkinson†, Y.H. Cui†, Z. Yang, M. Verghese, S. Yang, M. Sun, H. Zhu, J. Peterson, **J. Wei**, Y. Zhao, M. Chen, C. He, Y.Y. He*"
+    year: 2025
+    journal: 'Cell Rep. <span class="j-year">2025</span>, 44(10), 116311'
+    doi: "10.1016/j.celrep.2025.116311"
     links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.resconrec.2022.106420"
+      - url: "https://doi.org/10.1016/j.celrep.2025.116311"
+        name: "DOI"
+    note: []
 
-  - title: "Application of a decision-making framework for multi-objective optimisation of urban heat mitigation strategies"
-    authors_text: "Qi, J.*, Ding, L., & Lim, S."
-    journal: "Urban Climate (JCR Q1), 47, 101372"
-    year: 2023
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
+  - code: "ju_2025_natcommun"
+    title: "Quantitative CRACI reveals transcriptome-wide distribution of RNA dihydrouridine at base resolution"
+    authors_text: "C.W. Ju†, H. Li†, B. Jiang, X. Zhu, L. Cui, Z. Han, J. Zou, Y. Liu, S. Shen, H. Shah, C. Ye, Y. Zhong, R. Ge, P. Xia, Y. Ji, S. Liu, F. Yang, B. Liu, Y. Xu, **J. Wei**, L. S. Zhang*, C. He*"
+    year: 2025
+    journal: 'Nat. Commun. <span class="j-year">2025</span>, 16, 8863'
+    doi: "10.1038/s41467-025-63918-w"
     links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.uclim.2022.101372"
+      - url: "https://doi.org/10.1038/s41467-025-63918-w"
+        name: "DOI"
+    note: []
 
-  - title: "Development and application of 3D spatial metrics using point clouds for landscape visual quality assessment"
-    authors_text: "Qi, J.*, Lin, E. S., Tan, P. Y., Ho, R. C. M., Sia, A., Olszewska-Guizzo, A., Zhang, X., & Waykool, R."
-    journal: "Landscape and Urban Planning (JCR Q1), 228, 104585"
-    year: 2022
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
+  - code: "zhang_y_2025_emborep"
+    title: "Arginine methylation-dependent METTL14-SMN interaction regulates RNA m6A homeostasis"
+    authors_text: "Y. Zhang†, L. Shen, L. Ren, **J. Wei**, H. Q. H. Pham, X. Tao, J. Guo, Z. Wang, B. Shen, R. Su, C. He, Y. Yang*"
+    year: 2025
+    journal: 'EMBO Rep. <span class="j-year">2025</span>, 26(22), 5483–5500'
+    doi: "10.1038/s44319-025-00590-7"
     links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.landurbplan.2022.104585"
+      - url: "https://doi.org/10.1038/s44319-025-00590-7"
+        name: "DOI"
+      - url: "https://pubmed.ncbi.nlm.nih.gov/41053315/"
+        name: "PMID"
+      - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12635257/"
+        name: "PMCID"
+    note:
+      - "Epub Oct 6, 2025"
 
-  - title: "Representing the landscape visual quality of residential green spaces in Singapore with 3D spatial metrics"
-    authors_text: "Qi, J., Lin, E. S., Tan, P. Y., Zhang, X., Ho, R., Sia, A., Olszewska-Guizzo, A., & Waykool, R."
-    journal: "Urban Forestry & Urban Greening (JCR Q1), 90, 128132"
-    year: 2023
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
+  - code: "he_c_2025_natrevdd"
+    title: "RNA modification systems as therapeutic targets"
+    authors_text: "L. Zhang, **J. Wei**, Z. Zou, C. He"
+    year: 2025
+    journal: 'Nat. Rev. Drug Discov. <span class="j-year">2025</span>, Sep 17'
+    doi: "10.1038/s41573-025-01280-8"
     links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.ufug.2023.128132"
+      - url: "https://doi.org/10.1038/s41573-025-01280-8"
+        name: "DOI"
+      - url: "https://pubmed.ncbi.nlm.nih.gov/40962853/"
+        name: "PMID"
+    note:
+      - "Epub ahead of print"
 
-  - title: "Applying 3D spatial metrics for landscape planning: Creating and measuring landscape scenarios by a point cloud-based approach"
-    authors_text: "Qi, J., Lin, E. S., Tan, P. Y., Zhang, X., Ho, R., Sia, A., Olszewska-Guizzo, A., & Waykool, R."
-    journal: "Ecological Informatics (JCR Q1), 79, 102436"
+  - code: "ju_cw_2025_natbiotechnol"
+    title: "Modifications of microbiome-derived cell-free RNA in plasma discriminates colorectal cancer samples"
+    authors_text: "C. W. Ju, R. Lyu, H. Li, **J. Wei**, A. J. Parra Vitela, U. Dougherty, A. Kwesi, A. Luna, X. Zhu, S. Shen, Y. Liu, L. Wang, X. Cui, Y. Xu, B. Jiang, Y. Ji, P. Xia, D. C. West-Szymanski, C. Sun, Y. Zhong, C. Ye, A. Moran, C. Lehmann, E. Pamer, W. Zhang, M. Bissonnette, L. S. Zhang, C. He"
+    year: 2025
+    journal: 'Nat. Biotechnol. <span class="j-year">2025</span>, Jul 8'
+    doi: "10.1038/s41587-025-02731-8"
+    links:
+      - url: "https://doi.org/10.1038/s41587-025-02731-8"
+        name: "DOI"
+      - url: "https://pubmed.ncbi.nlm.nih.gov/40629040/"
+        name: "PMID"
+    note:
+      - "Epub ahead of print"
+
+  - code: "xu_2025_jacsau"
+    title: "Exploring Optimized Organic Fluorophore Search through Experimental Data-Driven Adaptive β-VAE"
+    authors_text: "Y. Xu, Y. Luo, B. Li, W. Jiang, J. Zhang, **J. Wei**, H. Bai, Z. Wang, J. Ge, R. Lin, Z. Mi, H. Zhang, Y. Tang, M. S. Jones, X. Li, J. Z. H. Zhang, C. W. Ju"
+    year: 2025
+    journal: 'JACS Au <span class="j-year">2025</span>, 5(7), 3082–3091'
+    doi: "10.1021/jacsau.5c00052"
+    links:
+      - url: "https://doi.org/10.1021/jacsau.5c00052"
+        name: "DOI"
+      - url: "https://pubmed.ncbi.nlm.nih.gov/40747032/"
+        name: "PMID"
+      - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12308382/"
+        name: "PMCID"
+    note: []
+
+  - code: "liang_2025_scinalifesci"
+    title: "N6-methyladenosine reader YTHDF3-mediated CEBPA translation maintains genomic stability and stem cell function to prevent liver injury"
+    authors_text: "Y. Liang, W. Yu, H. Sun, D. Wang, Z. Wang, H. Shi, Y. Cao, Z. Zhang, J. Liu, Z. Zou, **J. Wei**, T. Wu, D. Yu, J. Qi, J. Wu, B. C. Dickinson, P. Zhu, B. Shen, B. Sun, C. He, X. Zhong"
+    year: 2025
+    journal: 'Sci. China Life Sci. <span class="j-year">2025</span>, 68(8), 2456–2471'
+    doi: "10.1007/s11427-024-2793-x"
+    links:
+      - url: "https://doi.org/10.1007/s11427-024-2793-x"
+        name: "DOI"
+      - url: "https://pubmed.ncbi.nlm.nih.gov/40488955/"
+        name: "PMID"
+    note: []
+
+  - code: "xiao_l_2025_natcommun"
+    title: "Divergent roles of m6A in orchestrating brown and white adipocyte transcriptomes and systemic metabolism"
+    authors_text: "L. Xiao†, D. F. De Jesus†, C.-W. Ju†, **J. Wei**, J. Hu, A. DiStefano-Forti, T. Tsuji, C. Cero, V. Männistö, S. M. Manninen, S.-Y. Wei, O. Ijaduola, M. Blüher, A. M. Cypess, J. Pihlajamäki, Y.-H. Tseng, C. He*, R. N. Kulkarni*"
+    year: 2025
+    journal: 'Nat. Commun. <span class="j-year">2025</span>, 16, 533'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "patent_2025_demethylase"
+    title: "Engineered RNA demethylases for improved plant growth"
+    authors_text: "C. He, L. Jiang, **J. Wei**"
+    year: 2025
+    journal: 'US Patent App. <span class="j-year">2025</span>, 19/086,929'
+    doi: ""
+    links:
+      - url: "https://patents.google.com/patent/US19086929"
+        name: "Patent"
+    note:
+      - "Patent"
+
+  - code: "patent_2025_fertility"
+    title: "Methods and compositions for improving fertility"
+    authors_text: "C. He, **J. Wei**, T. Zeng, S. Gao, Y. Gao"
+    year: 2025
+    journal: 'US Patent App. <span class="j-year">2025</span>, 18/862,649'
+    doi: ""
+    links:
+      - url: "https://patents.google.com/patent/US18862649"
+        name: "Patent"
+    note:
+      - "Patent"
+
+  - code: "kahraman_2024_emboj"
+    title: "m6A mRNA methylation regulates early pancreatic β-cell differentiation"
+    authors_text: "S. Kahraman†, D. F. De Jesus†, **J. Wei**†, N. K. Brown, Z. Zou, J. Hu, C. He, R. N. Kulkarni*"
     year: 2024
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
+    journal: 'EMBO J <span class="j-year">2024</span>, Nov;43(22):5445-5468'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "xiao_l_2024_cellmetab"
+    title: "m6A mRNA methylation in brown fat regulates systemic insulin sensitivity via an inter-organ prostaglandin signaling axis independent of UCP1"
+    authors_text: "L. Xiao†, D. F. De Jesus†, C.-W. Ju†, **J. Wei**, J. Hu, A. DiStefano-Forti, T. Tsuji, C. Cero, V. Männistö, S. M. Manninen, S. Wei, O. Ijaduola, M. Blüher, A. M. Cypess, J. Pihlajamäki, Y.-H. Tseng, C. He, R. N. Kulkarni*"
+    year: 2024
+    journal: 'Cell Metab. <span class="j-year">2024</span>, 36(10), 2207–2227.e9'
+    doi: "10.1016/j.cmet.2024.08.006"
     links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.ecoinf.2023.102436"
+      - url: "https://doi.org/10.1016/j.cmet.2024.08.006"
+        name: "DOI"
+    note: []
+
+  - code: "cui_xl_2024_genomebiol"
+    title: "LABS: Linear amplification-based bisulfite sequencing for ultrasensitive cancer detection from cell-free DNA"
+    authors_text: "X.L. Cui†, J. Nie†, H. Zhu†, K. Kowitwanich, A. Beadell, D. West-Szymanski, Z. Zhang, U. Dougherty, A. Kwesi, Z. Deng, Y. Li, D. Meng, K. Roggin, T. Barry, R. Owyang, B. Fefferman, C. Zeng, L. Gao, C. W. T. Zhao, Y. Malina, **J. Wei**, M. Weigert, W. Kang, A. Goel, B. C. H. Chiu, M. Bissonnette, W. Zhang*, M. Chen*, C. He*"
+    year: 2024
+    journal: 'Genome Biol. <span class="j-year">2024</span>, 25'
+    doi: "10.1186/s13059-024-03262-2"
+    links:
+      - url: "https://doi.org/10.1186/s13059-024-03262-2"
+        name: "DOI"
+    note: []
+
+  - code: "wang_g_2024_natcommun"
+    title: "Quantitative profiling of m6A at single base resolution across the life cycle of rice and Arabidopsis"
+    authors_text: "G. Wang†, H. Li†, C. Ye†, K. He, S. Liu, B. Jiang, R. Ge, B. Gao, **J. Wei**, Y. Zhao, A. Li, D. Zhang, J. Zhang, C. He*"
+    year: 2024
+    journal: 'Nat. Commun. <span class="j-year">2024</span>, 15'
+    doi: "10.1038/s41467-024-48941-7"
+    links:
+      - url: "https://doi.org/10.1038/s41467-024-48941-7"
+        name: "DOI"
+    note: []
+
+  - code: "jesus_2024_natcellbiol"
+    title: "Redox Regulation of m6A Methyltransferase METTL3 in Human β-cells Controls the Innate Immune Response in Type 1 Diabetes"
+    authors_text: "D. F. De Jesus, Z. Zhang, N. K. Brown, X. Li, M. J. Gaffrey, S. Kahraman, **J. Wei**, J. Hu, G. Basile, L. Xiao, T. M. Rana, C. E. Mathews, A. C. Powers, M. A. Atkinson, D. L. Eizirik, S. Dhe-Paganon, A. V. Parent, W.-J. Qian, C. He*, R. N. Kulkarni*"
+    year: 2024
+    journal: 'Nat. Cell Biol. <span class="j-year">2024</span>, 26, 421-437'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zou_2023_molcell"
+    title: "FMRP phosphorylation modulates neuronal translation through YTHDF1"
+    authors_text: "Z. Zou†, **J. Wei**†, Y. Chen†, Y. Kang†, H. Shi, F. Yang, S. Chen, Y. Zhou, C. Sepich-Poore, X. Zhuang, X. Zhou, H. Jiang, Z. Wen, P. Jin*, C. Luo*, C. He*"
+    year: 2023
+    journal: 'Mol. Cell, <span class="j-year">2023</span>, 83, 4304-4317'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zhang_j_2023_molcell"
+    title: "A lncRNA from the FTO locus acts as an inhibitor of the m6A writer complex and p53 tumor suppression signaling"
+    authors_text: "J. Zhang†, **J. Wei**†, R. Sun†, H. Sheng, K. Yin, Y. Pan, R. Jimenez, S. Chen, X.-L. Cui, Z. Zou, Z. Yue, M. J. Emich, J. R. Hawse, L. Wang, H. H. He, S. Xia, B. Han, C. He*, H. Huang*"
+    year: 2023
+    journal: 'Mol. Cell <span class="j-year">2023</span>, 83, 2692-2708'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "he_pc_2023_science"
+    title: "Exon architecture controls mRNA m6A suppression and gene expression"
+    authors_text: "P. C. He†, **J. Wei**†, X. Dou†, B. T. Harada†, Z. Zhang, R. Ge, C. Liu, L.-S. Zhang, X. Yu, S. Wang, R. Lyu, Z. Zou, M. Chen, C. He*"
+    year: 2023
+    journal: 'Science <span class="j-year">2023</span>, 379, 677-682'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+      - "Featured by EurekAlert!, Phys.org, AZoLifeSciences, Labroots, News AZI, and UChicago News"
+
+  - code: "jiang_2023_natplants"
+    title: "Photo-condensation of the CRY2/SPA1/FIO1 complex regulating mRNA methylation and chlorophyll homeostasis in Arabidopsis"
+    authors_text: "B. Jiang†, Z. Zhong†, L. Gu†, X. Zhang, **J. Wei**, C. Ye, G. Lin, G. Qu, X. Xiang, C. Wen, M. Gateas, J. Bailey-Serres, Q. Wang, C. He, X. Wang*, C. Lin*"
+    year: 2023
+    journal: 'Nat. Plants <span class="j-year">2023</span>, 9, 2042-2058'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zhang_ls_2023_natprotoc"
+    title: "BID-seq: transcriptome-wide quantitative sequencing of pseudouridine at single-base resolution"
+    authors_text: "L.S. Zhang†, C. Ye†, C.W. Ju†, B. Gao, X. Feng, H.L. Sun, **J. Wei**, F. Yang, Q. Dai*, C. He*"
+    year: 2023
+    journal: 'Nat. Protoc. <span class="j-year">2023</span>, 19, 517-538'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "mayman_2023_case"
+    title: "Case report: a novel biallelic FTO variant causing multisystem anomalies with severe epilepsy, widening the spectrum of FTO syndrome"
+    authors_text: "N. Mayman, **J. Wei**, S. Cai, R. Soman, H. Raynes, M. La Vega-Talbott, C. He, T. Naidich, G. P. Raju*, S. K. Nageshwaran*"
+    year: 2023
+    journal: 'SAGE Open Med. Case Rep. <span class="j-year">2023</span>'
+    doi: "10.1177/2050313X231188883"
+    links:
+      - url: "https://doi.org/10.1177/2050313X231188883"
+        name: "DOI"
+    note: []
+
+  - code: "zou_z_2023_genomebiol"
+    title: "The mechanism underlying redundant functions of the YTHDF proteins"
+    authors_text: "Z. Zou, C. Sepich-Poore, X. Zhou, **J. Wei**, C. He*"
+    year: 2023
+    journal: 'Genome Biol. <span class="j-year">2023</span>, 24, 17-29'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zou_z_2023_fundamres"
+    title: "New horizons of regulatory RNA"
+    authors_text: "Z. Zou, **J. Wei**, C. He*"
+    year: 2023
+    journal: 'Fundam. Res. <span class="j-year">2023</span>, 3, 760-762'
+    doi: ""
+    links: []
+    note:
+      - "Invited Perspective"
+
+  - code: "zhang_ls_2022_acschenbiol"
+    title: "m7G-quant-seq: quantitative detection of RNA internal N7-Methylguanosine"
+    authors_text: "L.S. Zhang†, C.W. Ju†, C. Liu†, **J. Wei**, Q. Dai, L. Chen, C. Ye, C. He*"
+    year: 2022
+    journal: 'ACS Chem. Biol. <span class="j-year">2022</span>, 17, 3306-3312'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "hu_2022_natbiotechnol"
+    title: "m6A RNA modifications are measured at single-base resolution across the mammalian transcriptome"
+    authors_text: "L. Hu†, S. Liu†, Y. Peng†, R. Ge†, R. Su†, C. Senevirathne, B. T. Harada, Q. Dai, **J. Wei**, L.-S. Zhang, Z. Hao, L. Luo, H. Wang, Y. Wang, M. Luo, M. Chen*, J. Chen*, C. He*"
+    year: 2022
+    journal: 'Nat. Biotechnol. <span class="j-year">2022</span>, 40, 1210-1219'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "wei_2022_science"
+    title: "FTO mediates LINE1 m6A demethylation and chromatin regulation in mESCs and mouse development"
+    authors_text: "**J. Wei**†, X. Yu†, L. Yang†, X. Liu†, B. Gao, B. Huang, X. Dou, J. Liu, Z. Zou, X.-L. Cui, L.-S. Zhang, X. Zhao, Q. Liu, P. C. He, C. Sepich-Poore, N. Zhong, W. Liu, Y. Li, X. Kou, Y. Zhao, Y. Wu, X. Cheng, C. Chen, Y. An, X. Dong, H. Wang, Q. Shu, Z. Hao, T. Duan, Y.-Y. He, X. Li, S. Gao*, Y. Gao*, C. He*"
+    year: 2022
+    journal: 'Science <span class="j-year">2022</span>, 376, 968-973'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+      - "Featured by UChicago News"
+      - "Highlighted by Nat. Genet., Nat. Chem. Biol., and Sig. Transduct. Target Ther."
+      - "Recommended by Faculty Opinions"
+
+  - code: "su_2022_natcellbiol"
+    title: "METTL16 exerts an m6A-independent function to facilitate translation and tumorigenesis"
+    authors_text: "R. Su†, L. Dong†, Y. Li†, M. Gao†, P. C. He†, W. Liu†, **J. Wei**, Z. Zhao, L. Gao, L. Han, X. Deng, C. Li, E. Prince, B. Tan, Y. Qing, X. Qin, C. Shen, M. Xue, K. Zhou, Z. Chen, J. Xue, W. Li, H. Qin, X. Wu, M. Sun, Y. Nam, C.-W. Chen, W. Huang, D. Horne, S. T. Rosen, C. He*, J. Chen*"
+    year: 2022
+    journal: 'Nat. Cell. Biol. <span class="j-year">2022</span>, 24, 205-216'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "sheng_2021_blood"
+    title: "A critical role of nuclear m6A reader YTHDC1 in leukemogenesis by regulating MCM complex-mediated DNA replication"
+    authors_text: "Y. Sheng†, **J. Wei**†, F. Yu, H. Xu, C. Yu, Q. Wu, Y. Liu, L. Li, X.-L. Cui, X. Gu, B. Shen, W. Li, Y. Huang, S. Bhaduri-Mcintosh, C. He*, Z. Qian*"
+    year: 2021
+    journal: 'Blood <span class="j-year">2021</span>, 138, 2838-2852'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "yang_z_2021_pnas"
+    title: "METTL14 facilitates global genome repair and suppresses skin tumorigenesis"
+    authors_text: "Z. Yang†, S. Yang†, Y.-H. Cui†, **J. Wei**†, P. Shah, G. Park, X.-L. Cui, C. He, Y.-Y. He*"
+    year: 2021
+    journal: 'Proc. Natl. Acad. Sci. U.S.A. <span class="j-year">2021</span>, 118, e2025948118'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "wei_2021_curropincellbiol"
+    title: "Chromatin and transcriptional regulation by reversible RNA methylation"
+    authors_text: "**J. Wei**, C. He*"
+    year: 2021
+    journal: 'Curr. Opin. Cell Biol. <span class="j-year">2021</span>, 70, 109-115'
+    doi: ""
+    links: []
+    note:
+      - "Invited Review"
+
+  - code: "yu_2021_nar"
+    title: "Post-translational modification of RNA m6A demethylase ALKBH5 regulates ROS-induced DNA damage response"
+    authors_text: "F. Yu†, **J. Wei**†, X.-L. Cui†, C. Yu, W. Ni, J. Bungert, L. Wu, C. He*, Z. Qian*"
+    year: 2021
+    journal: 'Nucleic Acids Res. <span class="j-year">2021</span>, 49, 5779-5797'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "cui_yh_2021_natcommun"
+    title: "Autophagy of the m6A mRNA demethylase FTO is impaired by low arsenic exposure to promote tumorigenesis"
+    authors_text: "Y.-H. Cui†, S. Yang†, **J. Wei**†, C. R. Shea, W. Zhong, F. Wang, P. Shah, M. G. Kibriya, X.-L. Cui, H. Ahsan, C. He, Y.-Y. He*"
+    year: 2021
+    journal: 'Nat. Commun. <span class="j-year">2021</span>, 12, 2183-2202'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "hinger_2021_jmolcellcardiol"
+    title: "Remodeling of the m6A landscape in the heart reveals few conserved post-transcriptional events underlying cardio-myocyte hypertrophy"
+    authors_text: "S. A. Hinger†, **J. Wei**†, L. E. Dorn, B. A. Whiston, P. M. L. Jassen, C. He, F. Accornero*"
+    year: 2021
+    journal: 'J. Mol. Cell. Cardiol. <span class="j-year">2021</span>, 151, 46-55'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "xue_2021_plospathog"
+    title: "Viral RNA N6-methyladenosine modification modulates both innate and adaptive immune responses of human respiratory syncytial virus"
+    authors_text: "M. Xue, Y. Zhang, H. Wang, E. L. Kairis, M. Lu, S. Ahmad, Z. Attia, O. Harder, Z. Zhang, **J. Wei**, P. Chen, Y. Gao, A. Sharma, P. Boyaka, C. He, S. Hur, S. Niewiesk, M. E. Peeples, J. Li*"
+    year: 2021
+    journal: 'PLoS Pathog. <span class="j-year">2021</span>, 17, e1010142'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "cui_q_2021_natcancer"
+    title: "PUS7 regulates glioblastoma tumorigenesis through tRNA pseudouridylation"
+    authors_text: "Q. Cui†, K. Yin†, X. Zhang†, P. Ye, X Chen, J Chao, H. Meng, **J. Wei**, D. Roeth, L. Li, Y. Qin, G. Sun, M. Zhang, J. Klein, M. Huynhle, C. Wang, L. Zhang, B. Badie, M. Kalkum, C. He, C. Yi*, Y. Shi*"
+    year: 2021
+    journal: 'Nat. Cancer <span class="j-year">2021</span>, 2, 932-949'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "yu_q_2021_natbiotechnol"
+    title: "RNA demethylation increased crop yield and biomass in the field"
+    authors_text: "Q. Yu†, S. Liu†, L. Yu, Y. Xiao, S. Zhang, X. Wang, Y. Xu, H. Yu, Y. Li, J. Yang, J. Tang, H.-C. Duan, L.-H. Wei, H. Zhang, **J. Wei**, Q. Tang, C. Wang, W. Zhang, Y. Wang, P. Song, Q. Lu, W. Zhang, S. Dong, B. Song*, C. He*, G. Jia*"
+    year: 2021
+    journal: 'Nat. Biotechnol. <span class="j-year">2021</span>, 39, 1581-1588'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "zhang_ls_2021_natcellbiol"
+    title: "ALKBH7-mediated demethylation regulates mitochondrial polycistronic RNA processing"
+    authors_text: "L.-S. Zhang, Q.-P. Xiong, S. P. Perez, C. Liu, **J. Wei**, C. Le, L. Zhang, B. T. Harada, Q. Dai, X. Feng, Z. Hao, Y. Wang, X. Dong, L. Hu, E.-D. Wang, T. Pan, A. Klungland, R.-J. Liu*, C. He*"
+    year: 2021
+    journal: 'Nat. Cell. Biol. <span class="j-year">2021</span>, 23, 684-691'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "lu_2021_jvirol"
+    title: "Non-segmented negative-sense RNA viruses utilize N6-methyladenosine (m6A) as a common strategy to evade host innate immunity"
+    authors_text: "M. Lu†, M. Xue†, H.-T. Wang, E. L. Kairis, S. Ahmad, **J. Wei**, Z. Zhang, Q. Liu, Y. Zhang, Y. Gao, D. Garcin, M. E. Peeples, A. Sharma, S. Hur, C. He, J. Li*"
+    year: 2021
+    journal: 'J. Virol. <span class="j-year">2021</span>, 95, e01939-20'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "cui_xl_2020_natcommun"
+    title: "A human tissue map of 5-hydroxymethylcytosine exhibits tissue specificity through gene and enhancer modulation"
+    authors_text: "X.-L. Cui†, J. Nie†, J. Ku†, U. Dougherty, D. C. West-Szymanski, F. Collin, C. K. Ellison, L. Sieh, Y. Ning, Z. Deng, C. W. T. Zhao, A. Bergamaschi, J. Pekow, **J. Wei**, A. V. Beadell, Z. Zhang, G. Sharma, R. Talwar, P. Arensdorf, J. Karpus, A. Goel, M. Bissonnette, W. Zhang, S. Levy, C. He*"
+    year: 2020
+    journal: 'Nat. Commun. <span class="j-year">2020</span>, 11, 6161-6171'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "wei_2019_natchembiol"
+    title: "Site-specific m6A editing"
+    authors_text: "**J. Wei**, C. He*"
+    year: 2019
+    journal: 'Nat. Chem. Biol. <span class="j-year">2019</span>, 15, 848–849'
+    doi: ""
+    links: []
+    note:
+      - "Invited News & views"
+
+  - code: "yang_s_2019_natcommun"
+    title: "m6A mRNA demethylase FTO regulates melanoma tumorigenicity and response to anti-PD-1 blockade"
+    authors_text: "S. Yang†, **J. Wei**†, Y.-H. Cui†, G. Park, P. Shah, Y. Deng, A. E. Aplin, Z. Lu, S. Hwang, C. He*, Y.-Y. He*"
+    year: 2019
+    journal: 'Nat. Commun. <span class="j-year">2019</span>, 10, 2782-2796'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "shi_2019_molcell"
+    title: "Where, when, and how: context-dependent functions of RNA methylation writers, readers, and erasers"
+    authors_text: "H. Shi†, **J. Wei**†, C. He*"
+    year: 2019
+    journal: 'Mol. Cell <span class="j-year">2019</span>, 74, 640-650'
+    doi: ""
+    links: []
+    note:
+      - "Invited Review"
+      - "ESI Highly Cited Paper"
+      - "ESI Hot Paper"
+
+  - code: "huang_2019_cancercell"
+    title: "Small-molecule targeting of oncogenic FTO demethylase in acute myeloid leukemia"
+    authors_text: "Y. Huang†, R. Su†, Y. Sheng†, L. Dong†, Z. Dong†, H. Xu, T. Ni, Z. S. Zhang, T. Zhang, C. Li, L. Han, Z. Zhu, F. Lian, **J. Wei**, Q. Deng, Y. Wang, M. Wunderlich, Z. Gao, G. Pan, D. Zhong, H. Zhou, N. Zhang, J. Gan, H. Jiang, J. C Mulloy, Z. Qian*, J. Chen*, C.-G. Yang*"
+    year: 2019
+    journal: 'Cancer Cell <span class="j-year">2019</span>, 35, 677-691'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "wei_2018_molcell"
+    title: "Differential m6A, m6Am, and m1A demethylation mediated by FTO in cell nucleus and cytoplasm"
+    authors_text: "**J. Wei**†, F. Liu†, Z. Lu, Q. Fei, Y. Ai, P. Cody. He, H. Shi, X.L. Cui, R. Su, A. Klungland, G. Jia, J. Chen, C. He*"
+    year: 2018
+    journal: 'Mol. Cell <span class="j-year">2018</span>, 71, 973-985'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "cheng_2018_natcommun"
+    title: "RNA cytosine methylation and methyltransferases mediate chromatin organization and 5-azacytidine response and resistance in leukaemia"
+    authors_text: "J. X. Cheng*, L. Chen, Y. Li, A. Cloe, M. Yue, **J. Wei**, K. A. Watanabe, J. M. Shammo, J. Anastasi, Q. J. Shen, R. A. Larson, C. He, M. M. Le Beau, J. W. Vardiman"
+    year: 2018
+    journal: 'Nat. Commun. <span class="j-year">2018</span>, 9, 1163-1178'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "liu_2016_cell"
+    title: "ALKBH1-mediated tRNA demethylation regulates translation"
+    authors_text: "F. Liu, W. Clark, G. Luo, X. Wang, Y. Fu, **J. Wei**, X. Wang, Z. Hao, Q. Dai, G. Zheng, H. Ma, D. Han, M. Evans, A. Klungland, T. Pan*, C. He*"
+    year: 2016
+    journal: 'Cell <span class="j-year">2016</span>, 167, 816-828'
+    doi: ""
+    links: []
+    note:
+      - "ESI Highly Cited Paper"
+
+  - code: "zhang_2015_angew"
+    title: "Readily removable directing group assisted chemo- and regioselective C(sp3)–H activation by palladium catalysis"
+    authors_text: "Y.-F. Zhang, H.-W. Zhao, H. Wang, **J. Wei**, Z.-J. Shi*"
+    year: 2015
+    journal: 'Angew. Chem. Intl. Ed. <span class="j-year">2015</span>, 54, 13686-13690'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "su_2015_chemcatchem"
+    title: "Diversity-oriented synthesis through Rh-catalyzed selective transformations of a novel multirole directing group"
+    authors_text: "B. Su, **J. Wei**, W.-L. Wu, Z.-J. Shi*"
+    year: 2015
+    journal: 'ChemCatChem <span class="j-year">2015</span>, 7, 2986-2990'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "cao_2015_chemcomm"
+    title: "Direct cross-coupling of benzyl alcohols to construct diarylmethanes via palladium catalysis"
+    authors_text: "Z.-C. Cao, D.-G. Yu, R. Zhu, **J. Wei**, Z.-J. Shi*"
+    year: 2015
+    journal: 'Chem. Comm. <span class="j-year">2015</span>, 51, 2683-2686'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "liu_2013_chemcomm"
+    title: "Diversified syntheses of multifunctionalized thiazole derivatives via regioselective and programmed C–H activation"
+    authors_text: "X.-W. Liu, J.-L. Shi, **J. Wei**, C. Yang, J.-X. Yan, K. Peng, L. Dai, C.-G. Li, B.-Q. Wang*, Z.-J. Shi*"
+    year: 2013
+    journal: 'Chem. Comm. <span class="j-year">2013</span>, 51, 4599-4602'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "liu_xw_2013_orglett"
+    title: "Regioselective arylation of thiazole derivatives at 5-Position via Pd catalysis under ligand-free conditions"
+    authors_text: "X.-W. Liu, J.-L. Shi, J.-X. Yan, **J. Wei**, K. Peng, L. Dai, C.-G. Li, B.-Q. Wang, Z.-J. Shi*"
+    year: 2013
+    journal: 'Org. Lett. <span class="j-year">2013</span>, 15, 5774-5777'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zhao_2013_orglett"
+    title: "Programmed selective sp2 C–O bond activation toward multiarylated benzenes"
+    authors_text: "F. Zhao, Y.-F. Zhang, J. Wen, D.-G. Yu, **J. Wei**, Z. Xi*, Z.-J. Shi*"
+    year: 2013
+    journal: 'Org. Lett. <span class="j-year">2013</span>, 15, 3230-3233'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zhu_2013_chemsci"
+    title: "Benzofuran synthesis via copper-mediated oxidative annulation of phenols and unactivated internal alkynes"
+    authors_text: "R. Zhu, **J. Wei**, Z.-J. Shi*"
+    year: 2013
+    journal: 'Chem. Sci. <span class="j-year">2013</span>, 4, 3706-3711'
+    doi: ""
+    links: []
+    note: []
+
+  - code: "zhang_ls_2013_orglett"
+    title: "Palladium-catalyzed trifluoromethylation of aromatic C–H bond directed by an acetamino group"
+    authors_text: "L.-S. Zhang, K. Chen, G. Chen, B.-J. Li, S. Luo, Q.-Y. Guo, **J. Wei**, Z.-J. Shi*"
+    year: 2013
+    journal: 'Org. Lett. <span class="j-year">2013</span>, 15, 10-13'
+    doi: ""
+    links: []
+    note: []

@@ -56,10 +56,10 @@ $slider_hash_id := "hero_sliders" }} {{ $slider_args := dict "wcPage" $
   </div>
 </section>
 
-{{/* selected publications */}} {{ $featured_pubs := where (sort
-(site.Data.publications) "year" "desc") "home_featured" 1 }} {{
-$featured_pubs_limit := first .Params.featured_publication.show_limit
-$featured_pubs }}
+{{/* selected publications */}}
+{{ $featured_codes := site.Data.publications.featured_codes }}
+{{ $featured_pubs := where (sort (site.Data.publications.publications) "year" "desc") "code" "in" $featured_codes }}
+{{ $featured_pubs_limit := first .Params.featured_publication.show_limit $featured_pubs }}
 <section id="featured_publication" class="home-section">
   <div class="container">
     <div class="row">

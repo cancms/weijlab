@@ -85,7 +85,7 @@ research_directions:
 
 featured_publication: 
   title: Featured Publications
-  show_limit: 5
+  show_limit: 6
 #    
 #    
 

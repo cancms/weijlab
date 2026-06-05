@@ -2,10 +2,16 @@
 {{/* Require Isotope */}}
 {{ $.Page.Store.Set "has_isotope" true }}
 
-{{ $all_publications := site.Data.publications  }}
+{{ $all_publications := site.Data.publications.publications  }}
+
+{{ $featured_codes := site.Data.publications.featured_codes }}
+{{ $featured_pubs := where (sort (site.Data.publications.publications) "year" "desc") "code" "in" $featured_codes }}
+
+
+
 {{ $topics := slice }}
                 {{ range $all_publications }}
-                    {{ $topics = $topics | append .research_topic }}
+                    {{ $topics = $topics | append .year }}
                 {{ end }}
 {{ $unique_topics := $topics | uniq }}
 
@@ -14,19 +20,26 @@
     <h1 class="mb-0 common-page-h1-title">
       {{ .Title | markdownify | emojify }}
     </h1>
+
   </div>
 
+  <div class="article-style">
+      {{ .Params.pub_desc | markdownify | emojify }}
+    </div>
   {{/*  <h2 class="common-page-h2-title"></h2>  */}}
 
   <div class="row">
     <div class="co-12 col-md-3 list-page-index-sidebar">
 
+      <div class="page-list-index-item">{{.Params.pub_note1 | markdownify | emojify}}</div>
+      <div class="page-list-index-item">{{.Params.pub_note2 | markdownify | emojify}}</div>
+      <div class="page-list-index-item">{{.Params.pub_note3 | markdownify | emojify}}</div>
 
-        <div class="page-list-index-item"><a href="javascript:void(0)" class="filter-btn active" data-filter="*">All</a></div>
+        {{/*  <div class="page-list-index-item"><a href="javascript:void(0)" class="filter-btn active" data-filter="*">All</a></div>
         {{ range $index, $item := $unique_topics }}
           {{ $filterClass := replace (lower $item) " " "-" }}
           <div class="page-list-index-item"><a href="javascript:void(0)" class="filter-btn" data-filter=".filter-{{ $filterClass }}">{{$item | markdownify | emojify}}</a></div>
-        {{end}}
+        {{end}}  */}}
 
 
 
@@ -34,12 +47,26 @@
     </div>
     <div class="co-12 col-md-9 list-page-index-content">
 
+      <h2 style="margin-top: 0;" class="pb-3">Featured Publications</h2>
       <div class="page-publication-list">
+        {{ range $index, $item := $featured_pubs }}
+
+          {{ $filterClass := replace (lower $item.year) " " "-" }}
+          <div class="grid-sizer col-lg-12 isotope-item filter-{{ $filterClass }}"  >
+            {{ partial "views/pub_item" (dict  "item" $item  "index" $index) }}
+          </div>
+        {{ end }}
+      </div>
+
+
+
+
+      <h2 class="my-5">Full Publication List</h2>
+      <div class="page-publication-list filterable-pubs-list">
         {{ range $index, $item := $all_publications }}
 
-          {{ $filterClass := replace (lower $item.research_topic) " " "-" }}
+          {{ $filterClass := replace (lower $item.year) " " "-" }}
           <div class="grid-sizer col-lg-12 isotope-item filter-{{ $filterClass }}"
-              data-pubtype="{{ .research_topic }}"
               data-year="{{ .year }}"
           >
             {{ partial "views/pub_item" (dict  "item" $item  "index" $index) }}
@@ -56,7 +83,7 @@
 
  <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const $grid = $('.page-publication-list').isotope({
+    const $grid = $('.filterable-pubs-list').isotope({
       itemSelector: '.isotope-item',
       layoutMode: 'masonry'
     });
